@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(0, 0, 34);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+.left {
+    font-size: 1.5rem;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(0, 0, 60);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: rgb(137, 137, 211);
+    font-size: 1.0rem;
+    transition: 0.4s;
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+}
+.firstsection>div {
+    width: 30%;
+}
+.leftsection {
+    font-size: 2rem;
+}
+.leftsection span:hover {
+    font-size: 2.2rem;
+}
+.leftsection .buttons{
+    padding: 50px 0;
+}
+.rightsection {
+    width: 80%;
+    margin: 50px 0;
+}
+.purple {
+    color: rgb(155, 64, 240);
+}
+#element {
+    color: rgb(155, 64, 240);
+}
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.secondsection{
+    margin: auto;
+    max-width: 80vw;
+}
+.secondsection h2 {
+    font-size: 2rem;
+}
+.secondsection img{
+    border-radius: 50%;
+    border: 5px solid rgb(29, 29, 121);
+    float: right;
+}
+.aboutme {
+    font-size: 1.4rem;
+    margin: 20px;
+    color: rgb(188, 188, 236);
+    width: 50%;  
+}
+.picture {
+    justify-content: right;
+    width: 35%;
+    float: right;
+    margin-top: -400px;
+    display: flex;  
+    text-indent: 100px;
+}
+footer {
+    background-color: rgb(11, 11, 29);
+}
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    margin-top: 5px;
+
+}
+.footer div a{
+    text-decoration: none;
+    color: white;
+}
+.thirdsection .skill{
+    color: rgb(188, 188, 236);
+}
+.thirdsection h2 {
+    font-size: 2rem;
+}
+.thirdsection{
+    margin: auto;
+    max-width: 80vw;
+}
+.forthsection h2 {
+    font-size: 2rem;
+}
+.forthsection{
+    margin: auto;
+    max-width: 80vw;
+}
+.fifthsection h2 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.fifthsection{
+    margin: auto;
+    max-width: 80vw;
+}
+.leftsection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.fifthsection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+.fifthsection .btn:hover{
+    padding: 12px;
+    background: #1e2167;
+    color: rgb(255, 204, 204);
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 12px;
+    animation: none
+}
+.sixthsection h2 {
+    font-size: 2rem;
+    padding: 20px;
+}
+.sixthsection{
+    margin: auto;
+    max-width: 80vw;
+}
+.sixthsection ul li{
+    list-style: none;
+    margin: 5px;
+}
+.sixthsection ul {
+    margin-bottom: 40px;
+    margin-left: 40px;
+    color: rgb(188, 188, 236);
+}
+footer .footer-rights{
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}
+.git {
+    text-decoration: none;
+    color: white;
+}
+
+.git1 {
+    text-decoration: none;
+    color: white;
+}
+.skill {
+    padding: 20px;
+    font-size: 1.3rem;
+}
