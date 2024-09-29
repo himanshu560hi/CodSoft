@@ -30,9 +30,16 @@ nav ul li a {
     color: white;
 }
 nav ul li a:hover {
-    color: rgb(137, 137, 211);
+    
     font-size: 1.0rem;
     transition: 0.4s;
+    transition-duration: 0.1s;
+    background-color: rgb(3, 3, 112);
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
 }
 footer {
     background-color: rgb(11, 11, 29);
@@ -58,4 +65,22 @@ footer .footer-rights{
     text-align: center;
     color: grey;
     padding: 12px 0;
+}
+.noproject {
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+main .text1{
+    font-size: 1.5rem;
+    color: rgb(188, 188, 236);
+    margin-left: 200px;
+    margin-bottom: 50px;
+
+}
+h2{
+    padding: 30px 0;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 2rem;
 }

@@ -30,9 +30,16 @@ nav ul li a {
     color: white;
 }
 nav ul li a:hover {
-    color: rgb(137, 137, 211);
+    
     font-size: 1.0rem;
     transition: 0.4s;
+    transition-duration: 0.1s;
+    background-color: rgb(3, 3, 112);
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
 }
 footer {
     background-color: rgb(11, 11, 29);

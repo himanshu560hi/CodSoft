@@ -30,12 +30,17 @@ nav ul li a {
     color: white;
 }
 nav ul li a:hover {
-    color: rgb(137, 137, 211);
+    
     font-size: 1.0rem;
     transition: 0.4s;
+    transition-duration: 0.1s;
+    background-color: rgb(3, 3, 112);
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
 }
-
-
 .firstsection{
     margin: 20px;
     max-width: 80vw;
@@ -87,4 +92,5 @@ h2{
     padding-left: 100px;
     font-size: 1.3rem;
     padding-top: 20px;
+    color: rgb(188, 188, 236);
 }

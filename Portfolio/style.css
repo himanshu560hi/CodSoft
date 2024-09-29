@@ -4,11 +4,17 @@
 }
 body {
     background-color: rgb(0, 0, 34);
-    color: white;
+    color: rgb(249, 250, 250);
     font-family: 'poppins', sans-serif;
 }
 .left {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+}
+.left:hover {
+    font-size: 1.7rem;
+    color: rgb(155, 205, 239);
+    animation: step-end;
+    cursor: pointer;
 }
 nav {
     display: flex;
@@ -30,9 +36,16 @@ nav ul li a {
     color: white;
 }
 nav ul li a:hover {
-    color: rgb(137, 137, 211);
+    
     font-size: 1.0rem;
     transition: 0.4s;
+    transition-duration: 0.1s;
+    background-color: rgb(3, 3, 112);
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
 }
 .firstsection {
     display: flex;
@@ -45,6 +58,7 @@ nav ul li a:hover {
 }
 .leftsection {
     font-size: 2rem;
+    color: white;
 }
 .leftsection span:hover {
     font-size: 2.2rem;
@@ -74,6 +88,7 @@ main hr {
 }
 .secondsection h2 {
     font-size: 2rem;
+    color: white;
 }
 .secondsection img{
     border-radius: 50%;
@@ -118,6 +133,7 @@ footer {
 }
 .thirdsection h2 {
     font-size: 2rem;
+    color: white;
 }
 .thirdsection{
     margin: auto;
@@ -125,14 +141,21 @@ footer {
 }
 .forthsection h2 {
     font-size: 2rem;
+    color: white;
 }
 .forthsection{
     margin: auto;
     max-width: 80vw;
 }
+.forthsection .project1{
+    color: rgb(188, 188, 236);
+    padding: 25px;
+    font-size: 1.3rem;
+}
 .fifthsection h2 {
     font-size: 2rem;
     padding-bottom: 20px;
+    color: white;
 }
 .fifthsection{
     margin: auto;
@@ -171,6 +194,7 @@ footer {
 .sixthsection h2 {
     font-size: 2rem;
     padding: 20px;
+    color: white;
 }
 .sixthsection{
     margin: auto;
@@ -179,6 +203,7 @@ footer {
 .sixthsection ul li{
     list-style: none;
     margin: 5px;
+    font-size: 1.3rem;
 }
 .sixthsection ul {
     margin-bottom: 40px;
@@ -202,4 +227,49 @@ footer .footer-rights{
 .skill {
     padding: 20px;
     font-size: 1.3rem;
+}
+h3{
+    color: white;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .leftsection {
+        font-size: 1rem;
+    }
+    .leftsection span:hover {
+        font-size: 1.5rem;
+    }
+    .leftsection .buttons{
+        padding: 5px 0;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 40px;
+        background-color: rgb(49, 49, 110);
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.5rem;
+    }
+    nav ul li a:hover {
+        color: rgb(137, 137, 211);
+        font-size: 0.6rem;
+        transition: 0.4s;
+    }
+    .left {
+        font-size: 1rem;
+    }
 }
