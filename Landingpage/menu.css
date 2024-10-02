@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh; 
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.logo{
+    color: #9ff707;
+    font-size: 40px;
+   
+    font-weight: bold;
+    padding: 30px 10px;
+}
+.logo:first-letter{
+    color: white;
+}
+.menuimg{
+    width: 100%;
+   height: 100vh;
+   display: flex;
+}
+.burger{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.fastfood{
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+}
+
+header nav .icon{
+    height: 35px;
+    display: flex;
+    cursor: pointer;
+}
+th, td, tr{
+    border: 2px solid white;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+}
+.fries{
+    border: 2px solid white;
+    justify-content: right;
+    right: 70px;
+    top: 620px;
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    color: white;
+    justify-content: space-evenly;
+    font-weight: bold;
+    
+}
+.addtobag {
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+}
+table a{
+    text-decoration: none;
+    color: white;
+
+}
+.burgertable{
+    border: 2px solid white;
+    justify-content: left;
+    left: 70px;
+    top: 1170px;
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    color: white;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+.pizza {
+    width: 100%;
+}
+
+.pizzatable{
+    border: 2px solid white;
+    justify-content: right;
+    right: 70px;
+    top: 1740px;
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+    width: 700px;
+    position: absolute;
+    color: white;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
