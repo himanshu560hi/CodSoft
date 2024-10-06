@@ -39,17 +39,14 @@ nav{
     color: white;
 }
 .menuimg{
-    width: 100%;
    height: 100vh;
    display: flex;
 }
 .burger{
-    height: 100vh;
     width: 100%;
     display: flex;
 }
 .fastfood{
-    height: 100vh;
     width: 100%; 
     display: flex;
 }
