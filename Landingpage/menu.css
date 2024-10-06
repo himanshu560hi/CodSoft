@@ -37,16 +37,19 @@ nav{
 }
 .logo:first-letter{
     color: white;
-}
 .menuimg{
-   height: 100vh;
+    height: 100vh;
+    width: 100%;
    display: flex;
 }
 .burger{
+    height: 100vh;
     width: 100%;
     display: flex;
 }
+
 .fastfood{
+    height: 100vh;
     width: 100%; 
     display: flex;
 }
