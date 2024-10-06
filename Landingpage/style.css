@@ -35,10 +35,15 @@ nav{
     display: flex;
     position: absolute;
     top: 0;
-    left: -75px;
+    left: -50px;
     justify-content: space-evenly;
     align-items: center;
     background: transparent;
+}
+nav div .icon{
+    height: 35px;
+    display: flex;
+    cursor: pointer;
 }
 .logo{
     color: #9ff707;
@@ -65,9 +70,9 @@ nav{
     
 }
 .img{
-    width: 450px;
-    height: 450px;
-    margin-right: 50px;
+    width: 400px;
+    height: 400px;
+    margin-right: 150px;
     border-radius: 50%;
     border: 5px solid #ffb80e;
 }
@@ -110,7 +115,7 @@ nav{
     text-decoration: none;
     color: #813531;
 }
-
+/*
 @media only screen 
 and (max-device-width: 1000px)
 {
@@ -216,9 +221,6 @@ and (max-device-height: 500px)
 
 
 
-
-
-
 @media only screen 
 and (max-device-width: 360px)
 {
@@ -300,4 +302,4 @@ and (max-device-height: 640px)
         font-size: 10px;
         display: flex;
     }
-}
+}*/

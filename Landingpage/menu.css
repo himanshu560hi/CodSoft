@@ -39,20 +39,23 @@ nav{
     color: white;
 }
 .menuimg{
-    height: 100vh;
+    height: 560px;
     width: 100%;
    display: flex;
 }
 .burger{
-    height: 100vh;
+    height: 560px;
     width: 100%;
     display: flex;
 }
 
 .fastfood{
-    height: 100vh;
+    height: 560px;
     width: 100%; 
     display: flex;
+}
+.momosbg{
+    width: 100%;
 }
 
 header nav .icon{
@@ -118,6 +121,21 @@ table a{
     padding: 5px;
     height: 200px;
     width: 700px;
+    position: absolute;
+    color: white;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.momostable{
+    border: 2px solid white;
+    justify-content: left;
+    left: 70px;
+    top: 2470px;
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+    width: 500px;
     position: absolute;
     color: white;
     justify-content: space-evenly;

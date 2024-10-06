@@ -52,8 +52,84 @@ header nav .icon{
     justify-content: center;
     align-items: center;
     color: white;
+    text-decoration: 1px solid underline;
+}
+main div{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    border: 4px solid rgb(221, 58, 58);
+    
+}
+.Momos {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    
 }
 
+.img2{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    border: 4px solid rgb(221, 58, 58);
+}
+.pizza {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.img3{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: auto;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    border: 4px solid rgb(221, 58, 58);
+}
+.sandwich {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.img4{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: auto;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    border: 4px solid rgb(221, 58, 58);
+}
+.burger {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    
+}
 
 
 
