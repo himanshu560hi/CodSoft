@@ -55,7 +55,13 @@ nav{
     display: flex;
 }
 .momosbg{
+    height: 560px;
     width: 100%;
+}
+.pizza {
+    height: 600px;
+    width: 100%;
+    display: flex;
 }
 
 header nav .icon{
@@ -108,15 +114,13 @@ table a{
     justify-content: space-evenly;
     font-weight: bold;
 }
-.pizza {
-    width: 100%;
-}
+
 
 .pizzatable{
     border: 2px solid white;
     justify-content: right;
     right: 70px;
-    top: 1740px;
+    top: 1700px;
     margin: 5px;
     padding: 5px;
     height: 200px;
@@ -131,7 +135,7 @@ table a{
     border: 2px solid white;
     justify-content: left;
     left: 70px;
-    top: 2470px;
+    top: 2300px;
     margin: 5px;
     padding: 5px;
     height: 200px;

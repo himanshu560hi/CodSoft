@@ -48,7 +48,7 @@ nav div .icon{
 .logo{
     color: #9ff707;
     font-size: 40px;
-   
+    
     font-weight: bold;
     padding: 30px 10px;
 }
@@ -82,6 +82,7 @@ nav div .icon{
     left: 10%;
     color: white;
     font-size: 2.6rem;
+    cursor: pointer;
 }
 .text:first-letter{
     color: #9ff707;
