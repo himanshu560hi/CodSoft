@@ -8,6 +8,18 @@ body{
     height: 100vh;
     font-family: Poppins, sans-serif;
 }
+nav div .signup {
+    text-decoration: none;
+    color: #813531;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav div .signup:hover{
+    transition: 0.3s;
+    color: #3a0e0c;
+}
+
 .first{
     z-index: -1;
     width: 30%;
@@ -40,15 +52,11 @@ nav{
     align-items: center;
     background: transparent;
 }
-nav div .icon{
-    height: 35px;
-    display: flex;
-    cursor: pointer;
-}
+
+
 .logo{
     color: #9ff707;
     font-size: 40px;
-    
     font-weight: bold;
     padding: 30px 10px;
 }
@@ -67,7 +75,6 @@ nav div .icon{
     position: absolute;
     top: 90px;
     right: 0px;
-    
 }
 .img{
     width: 400px;

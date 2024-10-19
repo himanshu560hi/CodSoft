@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Poppins, sans-serif;
+    background-color: rgb(243, 161, 161);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+input{
+    padding: 5px;
+    width: 500px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.submit{
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #5f5ff9;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}

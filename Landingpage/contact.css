@@ -48,69 +48,42 @@ header nav .icon{
     padding: 150px;
     color: white;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-bottom: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-.form-container {
-    background-color: rgb(197, 163, 122);
-    padding: 30px;
-    border-radius: 8px;
-    width: 40%;
-    
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    left: 100px;
+li{
+    list-style: none;
 }
 
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
 
-form {
+
+
+.form{
     display: flex;
-    flex-direction: column;
-
+    justify-content: center;
+    padding: 3px;
 }
-
-label {
-    margin-bottom: 8px;
-    color: #000000;
-}
-
-input, textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: rgb(197, 163, 122);
-}
-
-button {
-    padding: 10px;
-    background-color: #007bff;
+label{
     color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+    margin-bottom: 5px;
 }
-
-button:hover {
-    background-color: #0056b3;
+input, textarea{
+    padding: 5px;
+    width: 950px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+.submit{
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #6262de;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
